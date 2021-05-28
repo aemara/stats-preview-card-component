@@ -4,7 +4,7 @@
 
 @media (max-height: 875px) {
     * {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
@@ -46,21 +46,32 @@ h1 span {
     margin-top: 1rem;
 }
 
-.stats p span {
-    font-family: 'Inter', 'sans-serif';
-    font-size: 1.5rem;
-    font-weight: 500;
+.stat {
+    line-height: 25px;
 }
 
-.stats p {
-    font-size: .75rem;
+.stat-number {
+    font-size: 1.5rem;
     font-family: 'Inter', 'sans-serif';
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: white;
     line-height: 1.5625rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.stat-name {
+    font-family: 'Lexend Deca', 'sans-serif';
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: white;
+    opacity: .6;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
